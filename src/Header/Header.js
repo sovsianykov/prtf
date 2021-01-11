@@ -5,6 +5,9 @@ class Header extends Component{
         return (
             <div>
                 <Navb/>
+                <div className="showcase">
+
+                </div>
             </div>
         )
     }
