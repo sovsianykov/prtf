@@ -93,7 +93,7 @@ class Work extends Component {
                             </div>
                             <div className="item">
                                 <div className="item-image">
-                                    <img src={item1} alt=""/>
+                                    <img src={item7} alt=""/>
                                 </div>
                                 <div className="item-text">
                                     <div className="item-text-wrap">

@@ -42,7 +42,9 @@ class Contact extends Component {
                                     className="text-input message-input"
                                     placeholder="Enter Message"
                                     name="message"
-                                ></textarea>
+                                >
+
+                                </textarea>
                                 <div className="my-2">
                                     <div data-netlify-recaptcha="true"></div>
                                 </div>
@@ -58,17 +60,17 @@ class Contact extends Component {
                             <div>
                                 <i className="fas fa-envelope fa-2x"></i>
                                 <h3>Email</h3>
-                                <p>john@something.com</p>
+                                <p>swebproger@gmail.com</p>
                             </div>
                             <div>
                                 <i className="fas fa-phone fa-2x"></i>
                                 <h3>Phone</h3>
-                                <p>(555) 555-5555</p>
+                                <p>(+380) 50 80054899</p>
                             </div>
                             <div>
                                 <i className="fas fa-address-card fa-2x"></i>
                                 <h3>Address</h3>
-                                <p>50 Main st, Boston MA</p>
+                                <p>Kiyv Ukraine 13 Smilyanska str</p>
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+@import "Config";
 .container {
   max-width: $website-width;
   padding: 0 1.5rem;
@@ -38,6 +39,8 @@ button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: $main-color;
+    text-decoration: none;
+
 }
 
 // Backgrounds

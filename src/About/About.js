@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 import  about from '../Img/about.jpg'
+import  js from '../Img/about-logos/jslogo.png'
+import  sass from '../Img/about-logos/saa.png'
 
 class About extends Component {
     render() {
@@ -56,17 +58,6 @@ class About extends Component {
                         <h4>Drupal:</h4>
                         <div className="progress">
                             <div style={{width: "30%"}}></div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="about-c" className="py-4 bg-light">
-                    <div className="container">
-                        <div className="about-logos">
-                            <img src="img/about-logos/logo-envato.png" alt="" />
-                            <img src="img/about-logos/logo-wordpress.png" alt="" />
-                            <img src="img/about-logos/logo-woocommerce.png" alt="" />
-                            <img src="img/about-logos/logo-magento.png" alt="" />
                         </div>
                     </div>
                 </section>

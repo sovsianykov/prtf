@@ -2,17 +2,6 @@ import React,{Component} from "react";
 import Navb from "./Navbar/Navb";
 import Typewr from './Typewryter';
 class Header extends Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-            strings: ["hello","world"],
-            autoStart: true
-
-        }
-    }
-
-
-
 
     render() {
         return (
@@ -26,11 +15,6 @@ class Header extends Component{
                         <div className="header-content">
                             <h1>
                                 I Am Sehii Ovsianykov
-                                {/*<span*/}
-                                {/*    className="txt-type"*/}
-                                {/*    data-wait="3000"*/}
-                                {/*    data-words='["Photographer", "Designer", "UI/UX Dev"]'*/}
-                                {/*></span>*/}
                             </h1>
                             <Typewr className= 'Typwrite'
 
