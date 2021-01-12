@@ -33,11 +33,7 @@ class Header extends Component{
                                 {/*></span>*/}
                             </h1>
                             <Typewr className= 'Typwrite'
-                                options={{
-                                    strings: ['Hello', 'World'],
-                                    autoStart: true,
-                                    loop: true,
-                                }}
+
                             />
                             <p className="lead">
                                 I specialize in creating websites, javascript and React SPA
