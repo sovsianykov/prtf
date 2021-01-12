@@ -81,6 +81,7 @@ img {
     height: 100vh;
     color: #fff;
 
+
     // Header Content
     .header-content {
       text-align: center;
@@ -89,6 +90,9 @@ img {
       h1 {
         font-size: 4rem;
         line-height: 1.2;
+      }
+      span {
+        font-size: 45px;
       }
     }
   }
