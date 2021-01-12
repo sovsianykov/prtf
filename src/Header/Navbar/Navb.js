@@ -7,7 +7,7 @@ class Navb extends  Component{
         return (
 
             <Navbar bg='dark' variant='dark'>
-                <Navbar.Brand href="#home">Serhii Ovsianykov web-dev</Navbar.Brand>
+                <Navbar.Brand href="#home">S.O. web-dev</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
 
