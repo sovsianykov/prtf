@@ -1,8 +1,5 @@
 import React,{Component} from "react";
 
-import  item4 from '../Img/items/item4.png'
-import  item5 from '../Img/items/item5.png'
-import  item6 from '../Img/items/item6.png'
 
 import bluestar from  '../Img/items/bluestardemo.png'
 import extra from  '../Img/items/extraordinary.jpg'
