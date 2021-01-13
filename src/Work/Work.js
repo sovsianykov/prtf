@@ -8,6 +8,8 @@ import  item6 from '../Img/items/item6.png'
 import  item7 from '../Img/items/item7.png'
 import  item8 from '../Img/items/item8.png'
 import  item9 from '../Img/items/item9.png'
+import bluestar from  '../Img/items/bluestardemo.png'
+import extra from  '../Img/items/extraordinary.jpg'
 
 
 
@@ -27,18 +29,21 @@ class Work extends Component {
                         <div className="items">
                             <div className="item">
                                 <div className="item-image">
-                                    <img src={item1} alt=""/>
+                                    <img src={bluestar} alt="bluestar"/>
                                 </div>
+
                                 <div className="item-text">
                                     <div className="item-text-wrap">
-                                        <p className="item-text-category">Design</p>
-                                        <h2 className="item-text-title">Great Gradients</h2>
+                                        <p className="item-text-category">Website</p>
+                                        <h2 className="item-text-title">Blue Star Company</h2>
                                     </div>
                                 </div>
+
                             </div>
+
                             <div className="item">
                                 <div className="item-image">
-                                    <img src={item2} alt=""/>
+                                    <img src={extra} alt=""/>
                                 </div>
                                 <div className="item-text">
                                     <div className="item-text-wrap">

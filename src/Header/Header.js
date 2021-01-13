@@ -7,7 +7,9 @@ class Header extends Component{
         return (
             <div>
                 <header id="header-home">
-                <Navb/>
+                    <div>
+
+                    </div>
                     <div className="container">
 
                     <div className="showcase">

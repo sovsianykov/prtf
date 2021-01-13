@@ -1,18 +1,13 @@
 import React , {Component} from "react";
 import {Nav, NavDropdown,Navbar,Collapse, NavLink} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 
 class Navb extends  Component{
     render() {
         return (
 
-            <Navbar bg='dark' variant='dark'>
-                <Navbar.Brand href="#home">S.O. web-dev</Navbar.Brand>
-                <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end">
-
-                </Navbar.Collapse>
-            </Navbar>
+<div></div>
 
 
         )
