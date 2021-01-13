@@ -1,7 +1,5 @@
 import React,{Component} from "react";
 import  about from '../Img/about.jpg'
-import  js from '../Img/about-logos/jslogo.png'
-import  sass from '../Img/about-logos/saa.png'
 
 class About extends Component {
     render() {
@@ -47,7 +45,7 @@ class About extends Component {
                         <div className="progress">
                             <div style={{width: "70%"}}></div>
                         </div>
-                        <h4>Javascript:</h4>
+                        <h4>Java script:</h4>
                         <div className="progress">
                             <div style={{width: "70%"}}></div>
                         </div>

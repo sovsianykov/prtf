@@ -1,6 +1,7 @@
 import React,{Component} from "react";
-import Navb from "./Navbar/Navb";
+
 import Typewr from './Typewryter';
+import {Link} from "react-router-dom";
 class Header extends Component{
 
     render() {
@@ -24,7 +25,7 @@ class Header extends Component{
                             <p className="lead">
                                 I specialize in creating websites, javascript and React SPA
                             </p>
-                            <a href="#" className="btn-light">View My Work</a>
+                            < Link to ="work/" className="btn-light">View My Work</Link>
                         </div>
                     </div>
                 </header>

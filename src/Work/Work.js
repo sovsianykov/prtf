@@ -1,15 +1,13 @@
 import React,{Component} from "react";
-import  item1 from '../Img/items/item1.png'
-import  item2 from '../Img/items/item2.png'
-import  item3 from '../Img/items/item3.png'
+
 import  item4 from '../Img/items/item4.png'
 import  item5 from '../Img/items/item5.png'
 import  item6 from '../Img/items/item6.png'
-import  item7 from '../Img/items/item7.png'
-import  item8 from '../Img/items/item8.png'
-import  item9 from '../Img/items/item9.png'
+
 import bluestar from  '../Img/items/bluestardemo.png'
 import extra from  '../Img/items/extraordinary.jpg'
+import search from  '../Img/items/search.png'
+
 
 
 
@@ -53,15 +51,17 @@ class Work extends Component {
                                 </div>
                             </div>
                             <div className="item">
+                                <a href="https://sovsianykov.github.io/search-the-word/">
                                 <div className="item-image">
-                                    <img src={item3} alt=""/>
+                                    <img src={search} alt=""/>
                                 </div>
                                 <div className="item-text">
                                     <div className="item-text-wrap">
-                                        <p className="item-text-category">Photography & Design</p>
+                                        <p className="item-text-category">js app</p>
                                         <h2 className="item-text-title">Vanishing</h2>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                             <div className="item">
                                 <div className="item-image">

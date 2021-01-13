@@ -2,14 +2,11 @@ import React from "react";
 import './App.scss'
 import Header from "./Header/Header";
 import About from "./About/About";
-import Work from "./Work/Work";
-import Footer from "./Footer/Footer";
+import Work from "./Work/Work"
 import Contact from "./Contact/Contact";
 import {Route,Link} from "react-router-dom";
 
-import Navb from "./Header/Navbar/Navb";
-import mylogo from './Img/mylogo.png'
-import {Navbar, Nav} from "react-bootstrap";
+import {Navbar} from "react-bootstrap";
 
 function App() {
   return (
