@@ -26,6 +26,7 @@ class Work extends Component {
                         </p>
                         <div className="items">
                             <div className="item">
+                                <a href="https://wesbound1.github.io/Serhii_OvsianykovDemo/">
                                 <div className="item-image">
                                     <img src={bluestar} alt="bluestar"/>
                                 </div>
@@ -36,10 +37,12 @@ class Work extends Component {
                                         <h2 className="item-text-title">Blue Star Company</h2>
                                     </div>
                                 </div>
-
+\                              </a>
                             </div>
 
                             <div className="item">
+                                <a href="https://sovsianykov.github.io/webmastering/">
+
                                 <div className="item-image">
                                     <img src={extra} alt=""/>
                                 </div>
@@ -49,6 +52,7 @@ class Work extends Component {
                                         <h2 className="item-text-title">World Experience</h2>
                                     </div>
                                 </div>
+                            </a>
                             </div>
                             <div className="item">
                                 <a href="https://sovsianykov.github.io/search-the-word/">
