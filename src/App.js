@@ -15,20 +15,20 @@ function App() {
   return (
 
     <div>
-        <Navbar bg='dark' variant='dark'>
-            <Nav id="main-nav">
-                <img src="img/logo.png" alt="My Portfolio" id="logo"/>
+        <Navbar  variant='dark'>
+            <nav id="main-nav">
+                {/*<img src="img/logo.png" alt="My Portfolio" id="logo"/>*/}
                 <ul>
                   <li>  <Link to='/home' >Home</Link></li>
                     <li> <Link to ='/about'>About</Link></li>
                         <li><Link  to='/work'>Work</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
                 </ul>
-            </Nav>
+            </nav>
         </Navbar>
         <div>
 
-            {/*<Route exec  path ='/'  component ={ Header }    />*/}
+            <Route exact  path ='/'  component ={ Header }    />
             <Route path ='/home' component ={Header }   />
             <Route path ='/about' component ={About}    />
             <Route path ='/work' component = {Work}    />

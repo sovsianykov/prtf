@@ -96,39 +96,7 @@ class Work extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item">
-                                <div className="item-image">
-                                    <img src={item7} alt=""/>
-                                </div>
-                                <div className="item-text">
-                                    <div className="item-text-wrap">
-                                        <p className="item-text-category">Photography</p>
-                                        <h2 className="item-text-title">Dock Ponder</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="item-image">
-                                    <img src={item1} alt=""/>
-                                </div>
-                                <div className="item-text">
-                                    <div className="item-text-wrap">
-                                        <p className="item-text-category">Web Applications</p>
-                                        <h2 className="item-text-title">Restaurant App</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="item-image">
-                                    <img src={item1} alt=""/>
-                                </div>
-                                <div className="item-text">
-                                    <div className="item-text-wrap">
-                                        <p className="item-text-category">Social Network Concept</p>
-                                        <h2 className="item-text-title">FriendFeed</h2>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
