@@ -6,15 +6,14 @@ import Work from "./Work/Work"
 import Contact from "./Contact/Contact";
 import {Route,Link} from "react-router-dom";
 
-import {Navbar} from "react-bootstrap";
+
 
 function App() {
   return (
 
     <div>
-        <Navbar  variant='dark'>
+
             <nav id="main-nav">
-                {/*<img src="img/logo.png" alt="My Portfolio" id="logo"/>*/}
                 <ul>
                   <li>  <Link to='/home' >Home</Link></li>
                     <li> <Link to ='/about'>About</Link></li>
@@ -22,7 +21,7 @@ function App() {
                             <li><Link to='/contact'>Contact</Link></li>
                 </ul>
             </nav>
-        </Navbar>
+
         <div>
 
             <Route exact  path ='/'  component ={ Header }    />
