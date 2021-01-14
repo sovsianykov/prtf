@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div>
-
+           <div className="navbar-expand">
             <nav id="main-nav">
                 <ul>
                   <li>  <Link to='/home' >Home</Link></li>
@@ -21,6 +21,7 @@ function App() {
                             <li><Link to='/contact'>Contact</Link></li>
                 </ul>
             </nav>
+           </div>
 
         <div>
 
